@@ -1,0 +1,25 @@
+
+<!-- Buttons to control the votes! -->
+<button (click)="clickRed()">Red!!</button>
+<button (click)="clickBlue()">Blue!!</button>
+<button (click)="savePoll()">Save results</button>
+<br><br>
+
+
+<div>
+
+  <!-- The 2 halves of the contest! -->
+  <!-- Width and display are both set by the typescript -->
+  <!-- We will also pass in the number of votes for each side
+       so that the bars can display the counts internally -->
+  <app-contest-item class = "left-half"
+      [ngStyle]="{'width': redPercent + '%',
+                  'display': (redPercent == 0 ? 'none' : 'inline-block')}"
+      [count]="redCount"></app-contest-item>
+
+  <app-contest-item class = "right-half"
+      [ngStyle]="{'width': bluePercent + '%',
+                  'display': (bluePercent == 0 ? 'none' : 'inline-block')}"
+      [count]="blueCount"></app-contest-item>
+
+</div>

@@ -1,0 +1,4 @@
+# frontend-angular has its own gitingore to exclude the angular cache files
+
+# Exclude backend python virtual environment
+venv/

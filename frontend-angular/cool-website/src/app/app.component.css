@@ -1,0 +1,7 @@
+/* To get the contest bar centered, treat it like a div,
+   taking up 100% of the parent app-root width */
+app-contest-bar {
+  display:inline-block;
+  width:100%;
+  box-sizing:border-box;
+}
