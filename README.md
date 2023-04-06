@@ -3,6 +3,11 @@ This code was created for a small tutorial on creating a web application with a 
 
 This application uses Angular for the frontend, MongoDB Atlas for the database, and Flask + PyMongo for the backend. The frontend is hosted on AWS S3, and the backend is hosted on AWS EC2 with help from Gunicorn and Nginx.
 
+## Notes on code
+Some of the code is different than what is used in the tutorial, but it should be mostly the same.
+
+Also, this code currently does not work! The DatabaseService in the frontend is not set up to connect to a server, since I don't have the backend actively hosted anywhere at the moment (my AWS free tier is expired lol). Also, the backend folder does not have a `config.ini` file. This is because is is generally bad to have the config file, which contains the username and password for the MongoDB connection, publicly available.
+
 
 Breakdown of steps/resources
 ==============================
