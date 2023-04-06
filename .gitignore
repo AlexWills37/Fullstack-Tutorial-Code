@@ -2,3 +2,6 @@
 
 # Exclude backend python virtual environment
 venv/
+
+# Exclude the file with our passwords!!
+config.ini
