@@ -28,8 +28,8 @@ import { Injectable } from '@angular/core';
 })
 export class DatabaseService {
 
-  // private backendEndpoint = ''   // endpoint hosted with EC2, running the flask server
-  private backendEndpoint = 'http://127.0.0.1:5000'  // endpoint when running flask locally
+  private backendEndpoint = ''   // endpoint hosted with EC2, running the flask server
+  // private backendEndpoint = 'http://127.0.0.1:5000'  // endpoint when running flask locally
 
 
   constructor() { }
