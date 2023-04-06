@@ -6,7 +6,7 @@ This application uses Angular for the frontend, MongoDB Atlas for the database, 
 ## Notes on code
 Some of the code is different than what is used in the tutorial, but it should be mostly the same.
 
-Also, this code currently does not work! The DatabaseService in the frontend is not set up to connect to a server, since I don't have the backend actively hosted anywhere at the moment (my AWS free tier is expired lol). Also, the backend folder does not have a `config.ini` file. This is because is is generally bad to have the config file, which contains the username and password for the MongoDB connection, publicly available.
+Also, this code currently does not work! The DatabaseService in the frontend is not set up to connect to a server, since I don't have the backend actively hosted anywhere at the moment (my AWS free tier is expired lol). Also, the backend folder does not have a `config.ini` file. This is because it is generally bad to have the config file, which contains the username and password for the MongoDB connection, publicly available.
 
 
 Breakdown of steps/resources
