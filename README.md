@@ -99,7 +99,8 @@ In general, you can make an http request to the Flask server with javascript's `
             },
             body: JSON.stringify(body)
         }
-
+    I am not sure if the headers are entirely necessary, but I have included them in my code.
+    
     The body is optional (useful for PUT requests), and can be defined as its own JSON object:
 
         const body = {
